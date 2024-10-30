@@ -1,14 +1,14 @@
 # ⛏️ react-native-wheel-picker2
 
-It's a fork of [react-native-picky](https://github.com/Liamandrew/react-native-picky) with Android API 33 support.
+It's a fork of [react-native-picky](https://github.com/Liamandrew/react-native-picky) with Android API 34 support.
 
 An awesome native wheel picker component for react-native.
 
 ## Features
 
-- Android API 33 support ✅
+- Android API 34 support ✅
 
-- React Native 0.70+ and 0.71+ support ✅
+- React Native 0.75+ support ✅
 
 - Supports multiple columns ✅
 
@@ -28,7 +28,7 @@ An awesome native wheel picker component for react-native.
 ## Installation
 
 ```sh
-yarn add react-native-picky
+yarn add react-native-wheel-picker2
 ```
 
 ## Quick Start
