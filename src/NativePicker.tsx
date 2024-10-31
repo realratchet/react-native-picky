@@ -22,6 +22,7 @@ type NativeIOSProps = {
   style?: StyleProp<ViewStyle>;
   selectedIndexes?: number[];
   testID?: string;
+  fontSize?: number;
 };
 
 type NativeAndroidProps = {

@@ -99,6 +99,7 @@ export const Picker = ({
           onChange={handleOnChange}
           numberOfLines={numberOfLines}
           data={data}
+          fontSize={textSize}
           columnWidths={columnWidths}
           loop={loop}
           style={[styles.picker, style]}
