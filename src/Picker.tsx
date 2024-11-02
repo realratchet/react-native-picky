@@ -37,6 +37,7 @@ export interface PickerProps {
   itemSpace?: number;
   textColor?: string;
   textSize?: number;
+  fontFamily?: string;
   numberOfLines?: number;
   style?: StyleProp<ViewStyle>;
   onChange?: (item: PickerColumnChangeItem) => void;
@@ -52,6 +53,7 @@ export const Picker = ({
   itemSpace = 12,
   textColor = '#000000',
   textSize = 20,
+  fontFamily,
   loop,
   numberOfLines = 1,
   onChange,
@@ -135,6 +137,7 @@ export const Picker = ({
               itemSpace={itemSpace}
               textColor={processColor(textColor)}
               textSize={textSize}
+              fontFamily={fontFamily}
               selectedIndex={selectedIndexes[index]}
               style={styles.picker}
               testID={testID}

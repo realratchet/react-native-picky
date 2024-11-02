@@ -36,6 +36,7 @@ type NativeAndroidProps = {
   textColor?: NativeColorType;
   textSize?: number;
   selectedIndex?: number;
+  fontFamily?: string;
 };
 
 export type NativePickerProps = NativeCommonProps &

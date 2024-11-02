@@ -1,6 +1,7 @@
 package com.reactnativepicky;
 
 import android.graphics.Color;
+import android.graphics.Typeface;
 
 import androidx.annotation.NonNull;
 
@@ -111,6 +112,18 @@ public class PickyManager extends SimpleViewManager<Picky> {
     public void setTextSize(Picky picker, int size) {
         if (picker != null) {
             picker.setItemTextSize((int) PixelUtil.toPixelFromDIP(size));
+        }
+    }
+
+    @ReactProp(name="fontFamily")
+    public void setFontFamily(Picky picker, String fontFamily) {
+        if (picker != null && fontFamily != null) {
+            try {
+                Typeface typeface = Typeface.createFromAsset(picker.getContext().getAssets(), fontFamily);
+                picker.setTypeface(typeface);
+             } catch (Exception e) {
+                
+            }
         }
     }
 
