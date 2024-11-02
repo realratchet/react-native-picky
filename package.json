@@ -1,5 +1,5 @@
 {
-  "name": "react-native-wheel-picker2",
+  "name": "react-native-picky",
   "version": "1.2.3",
   "description": "An awesome native wheel picker component for react-native",
   "main": "lib/commonjs/index",
